@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+h1 {
+  margin-bottom: 50px;
+  background-color: black;
+  padding: 12px 50px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 240px;
+}
+.card {
+ width: 320px;
+  border: 2px solid rgb(82, 68, 68);
+  border-radius: 6px;
+
+}
+.productList {
+  display: flex;
+  gap:24px;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  padding: 12px 24px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.cardDetails {
+  display: flex;
+  gap: 24px;
+  border: 1px solid steelblue;
+  padding: 12px;
+}
+
+.image {
+ width: 650px;
+
+}
